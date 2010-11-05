@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dcterms: <http://purl.org/dc/terms/">
+
+<#ccare>
+    a foaf:Person ;
+    foaf:name "Charles Philip Care" ;
+    foaf:title "Dr"
+    foaf:familyName "Care" ;
+    foaf:firstName "Charles" ;
+    foaf:nick "Charlie" ;
+    foaf:gender male ;
+    foaf:based_near [
+	rdfs:label "Earlsdon, Coventry";
+	a geo:Point;
+	geo:lat 52.397446;
+        geo:long -1.52811;
+    ];
+    foaf:mbox <mailto:c.p.care@gmail.com> ;
+    foaf:homepage <http://www.warwick.ac.uk/go/ccare> ;
+    foaf:depiction <http://www2.warwick.ac.uk/fac/sci/dcs/people/research/csrbaf/ccare2.jpg> ;
+    ] .
+
+<#em>
+ a foaf:Group;
+ foaf:homepage <http://www.dcs.warwick.ac.uk/modelling;
+ foaf:made [
+   a ~softwarePackage
+   foaf:name [
+    "tkeden", "eden", "dtkeden" .
+   ] .
+ 
+
+<http://www.warwick.ac.uk/go/ccare>
+    rdfs:label "Charles' e-portfolio' .
+ 
+<http://en.wikipedia.org/wiki/User:Ccare>
+    rdfs:label "Charles' wikipedia user page" .
+
