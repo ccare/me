@@ -27,7 +27,7 @@
  a foaf:Group;
  foaf:homepage <http://www.dcs.warwick.ac.uk/modelling;
  foaf:made [
-   a ~softwarePackage
+   a #softwarePackage
    foaf:name [
     "tkeden", "eden", "dtkeden" .
    ] .
